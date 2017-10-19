@@ -1,0 +1,9 @@
+$(function(){
+	$('.eve>li').hover(function(){
+			$('dl',this).animate({opacity:0});
+			$('div',this).animate({opacity:1});
+	},function(){
+			$('dl',this).animate({opacity:1});
+			$('div',this).animate({opacity:0});
+	})
+})

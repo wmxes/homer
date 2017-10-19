@@ -1,0 +1,19 @@
+/*
+* @Author: xiaodan  ai  xia
+* @Date:   2017-08-17 16:01:28
+* @Last Modified by:   xiaodan  ai  xia
+* @Last Modified time: 2017-08-17 16:22:12
+*/
+*{
+	margin: 0;
+	padding: 0;
+	outline-style: none;
+	font-family: "微软雅黑","宋体",sans-serif;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #fff;
+}

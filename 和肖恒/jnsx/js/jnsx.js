@@ -1,0 +1,9 @@
+$(function(){
+	$('.three>li').hover(function(){
+		$('dl',this).css({opacity:1});
+		$('div',this).css({opacity:0});
+	},function(){
+		$('dl',this).css({opacity:0});
+		$('div',this).css({opacity:1});
+	})
+})
